@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T10:22:13.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="9Wnl-d1MnRWoA8Vibot0" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-05T10:25:34.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="rb4p-_eKaKiZCApawEFV" version="15.4.1" type="github">
   <diagram id="-3Mf7pvUGyZ3UgzaagBH" name="Page-1">
     <mxGraphModel dx="1038" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6SlTIPmL1n4rDObzGpwE-13" value="Underwriting Firm" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="370" width="30" height="60" as="geometry" />
+          <mxGeometry x="580" y="460" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6SlTIPmL1n4rDObzGpwE-16" value="Extends" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="6SlTIPmL1n4rDObzGpwE-15" target="6SlTIPmL1n4rDObzGpwE-7">
           <mxGeometry relative="1" as="geometry" />
@@ -68,10 +68,22 @@
           <mxGeometry x="400" y="120" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6SlTIPmL1n4rDObzGpwE-23" value="Assess claims made" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="260" width="140" height="40" as="geometry" />
+          <mxGeometry x="310" y="240" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6SlTIPmL1n4rDObzGpwE-26" value="Evaluate and Issue Payments" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="330" width="140" height="40" as="geometry" />
+          <mxGeometry x="310" y="430" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6SlTIPmL1n4rDObzGpwE-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6SlTIPmL1n4rDObzGpwE-31" target="6SlTIPmL1n4rDObzGpwE-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SlTIPmL1n4rDObzGpwE-34" value="Extends" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="6SlTIPmL1n4rDObzGpwE-31" target="6SlTIPmL1n4rDObzGpwE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6SlTIPmL1n4rDObzGpwE-31" value="Assess Injuries" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6SlTIPmL1n4rDObzGpwE-32" value="Expert Witness" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="370" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
