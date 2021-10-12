@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T08:45:00.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Hc2CUsQJmflQLiausq3l" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T09:38:43.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="K2yQ6Q7E8of-EPE9aD6C" version="15.4.3" type="github">
   <diagram id="Iql28k8dq_us9lAi6-gg" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,11 +9,6 @@
         </mxCell>
         <mxCell id="ira81Tf-wzkYirphHMGb-8" value="Store Items from Brand" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ira81Tf-wzkYirphHMGb-2" target="ira81Tf-wzkYirphHMGb-3" edge="1">
           <mxGeometry x="0.2105" y="32" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ira81Tf-wzkYirphHMGb-18" value="Send Delivery Details" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ira81Tf-wzkYirphHMGb-2" target="ira81Tf-wzkYirphHMGb-5" edge="1">
-          <mxGeometry x="0.1102" y="-30" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -42,14 +37,6 @@
         <mxCell id="ira81Tf-wzkYirphHMGb-4" value="Payment Company" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="210" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3pDG49siFza_v9QcQp35-4" value="Inform of Delivery &lt;br&gt;Success/Failure" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ira81Tf-wzkYirphHMGb-5" target="ira81Tf-wzkYirphHMGb-2">
-          <mxGeometry x="-0.2751" y="-11" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ira81Tf-wzkYirphHMGb-5" value="Distribution &lt;br&gt;Department" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="280" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="ira81Tf-wzkYirphHMGb-16" value="Make Order" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.334;entryY=1.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ira81Tf-wzkYirphHMGb-6" target="ira81Tf-wzkYirphHMGb-2" edge="1">
           <mxGeometry x="0.2027" y="14" relative="1" as="geometry">
             <Array as="points">
@@ -66,11 +53,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3pDG49siFza_v9QcQp35-8" value="Request Refund" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ira81Tf-wzkYirphHMGb-6" target="3pDG49siFza_v9QcQp35-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ira81Tf-wzkYirphHMGb-6" value="Customer" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="374" y="410" width="110" height="50" as="geometry" />
+          <mxGeometry x="320" y="340" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ira81Tf-wzkYirphHMGb-11" value="Give Items" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.917;entryY=0.237;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ira81Tf-wzkYirphHMGb-7" target="ira81Tf-wzkYirphHMGb-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -78,21 +62,12 @@
         <mxCell id="ira81Tf-wzkYirphHMGb-7" value="Named Brand" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="505" y="30" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3pDG49siFza_v9QcQp35-9" value="Accept/Reject Refund" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3pDG49siFza_v9QcQp35-7" target="ira81Tf-wzkYirphHMGb-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3pDG49siFza_v9QcQp35-10" value="Send Refund Details" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3pDG49siFza_v9QcQp35-7" target="ira81Tf-wzkYirphHMGb-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3pDG49siFza_v9QcQp35-7" value="Customer Service" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="300" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="3pDG49siFza_v9QcQp35-11" value="Return payment" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ira81Tf-wzkYirphHMGb-4" target="ira81Tf-wzkYirphHMGb-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="310" as="sourcePoint" />
             <mxPoint x="676.1538461538462" y="270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="660" y="410" />
+              <mxPoint x="580" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
