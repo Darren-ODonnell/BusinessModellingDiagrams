@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T11:52:01.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="cV6QIYDW28A27kthn4IJ" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T11:52:19.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="7ogBVdRkwJr_MmF3eKPo" version="15.6.5" type="github">
   <diagram id="msP1U-69Pnnhi2RbjU0b" name="Page-1">
     <mxGraphModel dx="1483" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ezScB1P6TNNrAqSNEiyu-1" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="ezScB1P6TNNrAqSNEiyu-1" value="Music Venue Use Case" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontColor=default;width=130;height=32;" vertex="1" parent="1">
           <mxGeometry x="230" y="-1092" width="955" height="666" as="geometry" />
         </mxCell>
         <mxCell id="ezScB1P6TNNrAqSNEiyu-16" value="Request" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;strokeColor=default;fontColor=default;" vertex="1" parent="1">
