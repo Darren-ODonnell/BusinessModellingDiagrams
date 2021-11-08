@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T21:18:16.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="R4AXRKMLJ4DGUfS4-JnX" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T21:52:36.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="HWguQzr44Iu1ufP6D7Wp" version="15.7.0" type="github">
   <diagram id="G2chzlTLqcyCp36_tDNL" name="Page-1">
-    <mxGraphModel dx="1038" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="souYiVQS3MuT5vgsJ6Q9-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=default;" parent="1" source="souYiVQS3MuT5vgsJ6Q9-2" target="souYiVQS3MuT5vgsJ6Q9-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S_53ptZYDkWNQ6xQKXB-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=default;" edge="1" parent="1" source="souYiVQS3MuT5vgsJ6Q9-2" target="8S_53ptZYDkWNQ6xQKXB-1">
+        <mxCell id="8S_53ptZYDkWNQ6xQKXB-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=default;" parent="1" source="souYiVQS3MuT5vgsJ6Q9-2" target="8S_53ptZYDkWNQ6xQKXB-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="souYiVQS3MuT5vgsJ6Q9-2" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
@@ -97,10 +97,10 @@
         <mxCell id="souYiVQS3MuT5vgsJ6Q9-38" value="Pay with Currency" style="ellipse;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="413" y="240" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8S_53ptZYDkWNQ6xQKXB-3" value="Includes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="8S_53ptZYDkWNQ6xQKXB-1" target="souYiVQS3MuT5vgsJ6Q9-4">
+        <mxCell id="8S_53ptZYDkWNQ6xQKXB-3" value="Includes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=default;" parent="1" source="8S_53ptZYDkWNQ6xQKXB-1" target="souYiVQS3MuT5vgsJ6Q9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8S_53ptZYDkWNQ6xQKXB-1" value="Choose Building" style="ellipse;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="8S_53ptZYDkWNQ6xQKXB-1" value="Choose Building" style="ellipse;whiteSpace=wrap;html=1;fontColor=default;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="280" y="-380" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
