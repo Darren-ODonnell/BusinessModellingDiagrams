@@ -1,105 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T16:58:35.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="qx92WsBg5dw3SPy0CUsQ" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T18:04:57.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="-WLZ2ZGs6NX1FybIjJEL" version="15.7.0" type="github">
   <diagram id="Npd62zTc91l9p_BbH5X5" name="Page-1">
-    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GulnhAo9liuhYGO9E0Ef-1" value="Reservation" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=20;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="780" height="560" as="geometry" />
+          <mxGeometry x="40" y="40" width="780" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-10" target="GulnhAo9liuhYGO9E0Ef-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GulnhAo9liuhYGO9E0Ef-10" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="100" y="90" width="30" height="30" as="geometry" />
+          <mxGeometry x="175" y="60" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-11" value="Inquire about Occupancy" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="GulnhAo9liuhYGO9E0Ef-10" parent="1" target="GulnhAo9liuhYGO9E0Ef-12">
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-48" value="[Cancel Booking]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-12" target="GulnhAo9liuhYGO9E0Ef-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-12" target="GulnhAo9liuhYGO9E0Ef-50">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="85" y="220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="115" y="200" />
-              <mxPoint x="115" y="200" />
+              <mxPoint x="370" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-12" target="GulnhAo9liuhYGO9E0Ef-14">
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-53" value="[Missed Booking]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-51">
+          <mxGeometry x="0.1905" y="-2" relative="1" as="geometry">
+            <mxPoint x="13" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-12" target="GulnhAo9liuhYGO9E0Ef-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-17" value="[Room Available]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-15">
-          <mxGeometry x="-0.1692" relative="1" as="geometry">
-            <mxPoint x="6" as="offset" />
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-62" value="[On Time &amp;amp; Not Cancelled]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-61">
+          <mxGeometry x="-0.0745" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-19" value="[Room Unavailable]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-12" target="GulnhAo9liuhYGO9E0Ef-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-12" value="Booking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-12" value="Reserved" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GulnhAo9liuhYGO9E0Ef-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="398" y="520" width="30" height="30" as="geometry" />
+          <mxGeometry x="620" y="555" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-14" target="GulnhAo9liuhYGO9E0Ef-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="349.9999999999999" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-14" target="GulnhAo9liuhYGO9E0Ef-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-38" value="[Cancel Booking]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-27">
-          <mxGeometry x="-0.2897" y="-1" relative="1" as="geometry">
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-14" value="Complete" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-40" target="GulnhAo9liuhYGO9E0Ef-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-44" value="[Book in advance]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-41">
+          <mxGeometry x="-0.2917" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-14" target="GulnhAo9liuhYGO9E0Ef-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-30" value="[Arrive at Hotel]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-29">
-          <mxGeometry x="-0.3588" y="-1" relative="1" as="geometry">
-            <mxPoint x="25" y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-14" value="Scheduled" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-22" target="GulnhAo9liuhYGO9E0Ef-22">
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-40" target="GulnhAo9liuhYGO9E0Ef-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="850" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="740" y="230" />
-              <mxPoint x="740" y="140" />
-              <mxPoint x="650" y="140" />
+              <mxPoint x="110" y="170" />
+              <mxPoint x="110" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-31" value="[Extend Duration of Stay]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-25">
-          <mxGeometry x="-0.2009" relative="1" as="geometry">
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-43" value="[Book on the day]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-42">
+          <mxGeometry x="0.4787" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-22" target="GulnhAo9liuhYGO9E0Ef-33">
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-40" value="Day of Reservation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-47" target="GulnhAo9liuhYGO9E0Ef-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="620" y="300" />
-              <mxPoint x="620" y="300" />
+              <mxPoint x="680" y="240" />
+              <mxPoint x="680" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-36" value="[Sign Out of hotel]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-34">
-          <mxGeometry x="-0.1624" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-47" value="Cancelled" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-22" value="Occupying" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-33" target="GulnhAo9liuhYGO9E0Ef-13">
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GulnhAo9liuhYGO9E0Ef-50" target="GulnhAo9liuhYGO9E0Ef-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-37" value="[Make Payment]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GulnhAo9liuhYGO9E0Ef-35">
-          <mxGeometry x="-0.5101" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GulnhAo9liuhYGO9E0Ef-33" value="Billing" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="GulnhAo9liuhYGO9E0Ef-50" value="Missed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
