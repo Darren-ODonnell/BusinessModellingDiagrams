@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T11:27:52.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.7.0" etag="9A7KYXz3gqsHE6sAL9zo" type="github"><diagram id="l3Clw31GvY2ZpdcvtHla">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-09T11:33:11.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="tgDjV3u0tOnYbV9fwb0e" version="15.7.0" type="github">
+  <diagram id="l3Clw31GvY2ZpdcvtHla" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1mJJuBnffCzErpvquc3s-1" value="Employee" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="640" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="1mJJuBnffCzErpvquc3s-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1mJJuBnffCzErpvquc3s-3" value="Schedule Interview" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="1mJJuBnffCzErpvquc3s-2" parent="1" target="1mJJuBnffCzErpvquc3s-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1mJJuBnffCzErpvquc3s-4" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="410" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1mJJuBnffCzErpvquc3s-10" value="[pass interview]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1mJJuBnffCzErpvquc3s-5" target="1mJJuBnffCzErpvquc3s-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mJJuBnffCzErpvquc3s-14" value="[Fail Interview]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1mJJuBnffCzErpvquc3s-5" target="1mJJuBnffCzErpvquc3s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1mJJuBnffCzErpvquc3s-5" value="Interview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1mJJuBnffCzErpvquc3s-9" value="Probation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
