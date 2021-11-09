@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T11:16:06.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="XxxduMy2pXjog5i9UtsK" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T11:27:04.782Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="ekZpAS4cAO7OMOh5n1nv" version="15.7.0" type="github">
   <diagram id="arLlyks3ZgtwF9YTIxUN" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PMGbh2DLQC6IU_RWl1ml-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="345" y="370" width="30" height="30" as="geometry" />
+          <mxGeometry x="365" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PMGbh2DLQC6IU_RWl1ml-26" value="deposit made" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PMGbh2DLQC6IU_RWl1ml-16" target="PMGbh2DLQC6IU_RWl1ml-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PMGbh2DLQC6IU_RWl1ml-16" value="Initial" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="120" width="120" height="60" as="geometry" />
@@ -25,13 +28,32 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PMGbh2DLQC6IU_RWl1ml-17" value="closed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PMGbh2DLQC6IU_RWl1ml-29" value="Deposit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PMGbh2DLQC6IU_RWl1ml-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="118" as="sourcePoint" />
+            <mxPoint x="360" y="118" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="90" />
+              <mxPoint x="360" y="90" />
+              <mxPoint x="360" y="118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PMGbh2DLQC6IU_RWl1ml-31" value="WithdrawAll" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PMGbh2DLQC6IU_RWl1ml-18" target="PMGbh2DLQC6IU_RWl1ml-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PMGbh2DLQC6IU_RWl1ml-18" value="active" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PMGbh2DLQC6IU_RWl1ml-19" value="normal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="PMGbh2DLQC6IU_RWl1ml-30" value="Withdraw [funds&amp;gt;0]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="PMGbh2DLQC6IU_RWl1ml-18" target="PMGbh2DLQC6IU_RWl1ml-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="165" />
+              <mxPoint x="510" y="135" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
