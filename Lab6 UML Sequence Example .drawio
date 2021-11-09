@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T10:18:47.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.7.0" etag="hUfiF4ARCOP7tg1DLh6S" type="github"><diagram id="GSQDks5SDXR-duc8H9LV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-09T10:33:52.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="tdlISvk86AhibRpDQ5DO" version="15.7.0" type="github">
+  <diagram id="GSQDks5SDXR-duc8H9LV" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6kaqga70_M-qTxkChhwT-2" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="20" width="700" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-4" value="Passenger" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6kaqga70_M-qTxkChhwT-4">
+          <mxGeometry x="5" y="70" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-5" value="Elevator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6kaqga70_M-qTxkChhwT-5">
+          <mxGeometry x="45" y="70" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-6" value="Control Panel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6kaqga70_M-qTxkChhwT-6">
+          <mxGeometry x="45" y="70" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-7" value="Display" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="727" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6kaqga70_M-qTxkChhwT-7">
+          <mxGeometry x="45" y="70" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-12" value="enterElevator" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6kaqga70_M-qTxkChhwT-8" target="6kaqga70_M-qTxkChhwT-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="120" />
+              <mxPoint x="360" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-15" value="selectFloor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6kaqga70_M-qTxkChhwT-11" target="6kaqga70_M-qTxkChhwT-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="130" />
+              <mxPoint x="550" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-16" value="activateButtonLight" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6kaqga70_M-qTxkChhwT-13" target="6kaqga70_M-qTxkChhwT-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="140" />
+              <mxPoint x="700" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.1;entryY=0.241;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6kaqga70_M-qTxkChhwT-13" target="6kaqga70_M-qTxkChhwT-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-20" value="CloseElevatorDoor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6kaqga70_M-qTxkChhwT-19">
+          <mxGeometry x="0.0401" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-24" value="deactivateButtonLight" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.12;entryY=0.841;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6kaqga70_M-qTxkChhwT-13" target="6kaqga70_M-qTxkChhwT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-25" value="moveElevatorToDestinationFloor" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.02;entryY=0.428;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6kaqga70_M-qTxkChhwT-13" target="6kaqga70_M-qTxkChhwT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-27" value="openElevatorDoor" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.18;entryY=0.793;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6kaqga70_M-qTxkChhwT-13" target="6kaqga70_M-qTxkChhwT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kaqga70_M-qTxkChhwT-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.38;entryY=0.919;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6kaqga70_M-qTxkChhwT-11" target="6kaqga70_M-qTxkChhwT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
