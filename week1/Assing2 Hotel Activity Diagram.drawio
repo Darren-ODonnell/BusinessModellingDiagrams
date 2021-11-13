@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-13T14:26:15.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="IH_RG3v-LDECNwYk3kK2" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-13T14:28:04.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="6egtUuk7aZbQxM1GT1Jz" version="15.7.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1673" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -34,11 +34,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gjUZ3fPqfgkGFWGXfoxw-51" value="[Walk-in booking]" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.629;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2" source="gjUZ3fPqfgkGFWGXfoxw-49" target="gjUZ3fPqfgkGFWGXfoxw-44">
-          <mxGeometry x="-0.1031" y="24" relative="1" as="geometry">
+          <mxGeometry x="-0.0148" y="14" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="233.5" y="194" />
             </Array>
-            <mxPoint as="offset" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gjUZ3fPqfgkGFWGXfoxw-49" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="2">
