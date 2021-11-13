@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-13T18:12:06.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="1hLuT1FvQwXUYVoFdVuE" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-13T18:25:33.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="QmZfzRyFX5Xv5x0tNeHq" version="15.7.1" type="github">
   <diagram id="YhXRtmVECPYvh8T-_8Jl" name="Page-1">
     <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,28 +92,31 @@
           <mxGeometry y="138" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nPpc5XucaBcoF5oF9KkG-18" value="Bill" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="625" y="164" width="190" height="190" as="geometry" />
+          <mxGeometry x="625" y="164" width="270" height="220" as="geometry" />
         </mxCell>
         <mxCell id="nPpc5XucaBcoF5oF9KkG-19" value="- servicesBought: List&lt;Service&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nPpc5XucaBcoF5oF9KkG-18" vertex="1">
-          <mxGeometry y="26" width="190" height="26" as="geometry" />
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vZjGSp75bT5T1jxKTtqy-35" value="- customer: Customer " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nPpc5XucaBcoF5oF9KkG-18" vertex="1">
-          <mxGeometry y="52" width="190" height="26" as="geometry" />
+          <mxGeometry y="52" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vZjGSp75bT5T1jxKTtqy-36" value="- hotel: Hotel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nPpc5XucaBcoF5oF9KkG-18" vertex="1">
-          <mxGeometry y="78" width="190" height="26" as="geometry" />
+          <mxGeometry y="78" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vZjGSp75bT5T1jxKTtqy-37" value="- usedRewardPoints: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nPpc5XucaBcoF5oF9KkG-18" vertex="1">
-          <mxGeometry y="104" width="190" height="26" as="geometry" />
+          <mxGeometry y="104" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nPpc5XucaBcoF5oF9KkG-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nPpc5XucaBcoF5oF9KkG-18" vertex="1">
-          <mxGeometry y="130" width="190" height="8" as="geometry" />
+          <mxGeometry y="130" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="nPpc5XucaBcoF5oF9KkG-21" value="+ payWithRewardPoints(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nPpc5XucaBcoF5oF9KkG-18" vertex="1">
-          <mxGeometry y="138" width="190" height="26" as="geometry" />
+          <mxGeometry y="138" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vZjGSp75bT5T1jxKTtqy-44" value="+ payWithCurrency(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nPpc5XucaBcoF5oF9KkG-18" vertex="1">
-          <mxGeometry y="164" width="190" height="26" as="geometry" />
+          <mxGeometry y="164" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EifJ4AYmqU1AUtrdU46T-2" value="+ getTotal(Reservation, List&lt;Service&gt;): Decimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPpc5XucaBcoF5oF9KkG-18">
+          <mxGeometry y="190" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nPpc5XucaBcoF5oF9KkG-22" value="Reward" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="243" width="200" height="164" as="geometry" />
