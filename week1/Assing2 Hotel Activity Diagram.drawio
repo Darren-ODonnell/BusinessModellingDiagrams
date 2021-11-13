@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-11-13T16:08:16.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="8tXxfdLp1qMbCK1q8q-8" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-13T16:45:52.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xIl6AF2W4ylEOYb843tk" version="15.7.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1673" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Customer" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="145" y="120" width="465" height="1150" as="geometry" />
+          <mxGeometry x="145" y="120" width="465" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="gjUZ3fPqfgkGFWGXfoxw-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" target="gjUZ3fPqfgkGFWGXfoxw-58" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -120,7 +120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4" value="Reservation" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="920" y="120" width="250" height="1150" as="geometry" />
+          <mxGeometry x="920" y="120" width="250" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="gjUZ3fPqfgkGFWGXfoxw-144" value="Compile Cancellation Details" style="rounded=1;whiteSpace=wrap;html=1;" parent="4" vertex="1">
           <mxGeometry x="65" y="340" width="120" height="60" as="geometry" />
@@ -129,7 +129,7 @@
           <mxGeometry x="65" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Hotel" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="610" y="120" width="310" height="1150" as="geometry" />
+          <mxGeometry x="610" y="120" width="310" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="gjUZ3fPqfgkGFWGXfoxw-139" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="3" vertex="1">
           <mxGeometry x="-107" y="290" width="25" height="28" as="geometry" />
